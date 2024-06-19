@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="pressao.js" defer></script>
+    <title>Pressão</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Coversão</h1>
+        <hr>
+        <h3>De mmHg para psi</h3>
+        <label for="mmhg">Digite em mmHg</label>
+        <input type="number" id="mmhg" placeholder="mmHg"><br><br>
+        <button onclick="transMmHg()">Transformar</button>
+        <div id="res1"></div><br>
+        <hr>
+        <h3>De PSI para mmHg</h3>
+        <label for="psi">Digite em PSI</label>
+        <input type="number" id="psi" placeholder="PSI"><br><br>
+        <button onclick="transPSI()">Transformar</button>
+        <div id="res2"></div>
+        <hr>
+        <button onclick="location.href='index.html'">Menu</button>
+    </div>    
+</body>
+</html>
